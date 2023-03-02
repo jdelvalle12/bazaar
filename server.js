@@ -14,7 +14,7 @@ app.use(routes);
 
 const db = mysql.createConnection(
   {
-    host: 'localhost',
+    host: '@localhost',
     user: 'root',
     password: '#DiaKid12',
     database: 'ecommerce_db',

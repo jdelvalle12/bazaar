@@ -4,6 +4,24 @@
     "express": "^4.18.2",
     "mysql2": "^3.1.2",
     "seed": "^0.4.4",
-    "sequelize": "^6.28.0"
-  }
+    "sequelize": "^6.29.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "bazaar",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdelvalle12/bazaar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdelvalle12/bazaar/issues"
+  },
+  "homepage": "https://github.com/jdelvalle12/bazaar#readme"
 }
