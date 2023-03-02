@@ -14,7 +14,7 @@ app.use(routes);
 
 const db = mysql.createConnection(
   {
-    host: '@localhost',
+    host: 'localhost',
     user: 'root',
     password: '#DiaKid12',
     database: 'ecommerce_db',
@@ -27,7 +27,7 @@ db.query('SELECT * FROM students', function (err, results) {
 });
 
 // sync sequelize models to the database, then turn on the server
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
   });
