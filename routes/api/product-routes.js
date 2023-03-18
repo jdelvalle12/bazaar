@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
 router.get('/:product_id', async (req, res) => {
   // find a single product by its `id`
   try {
-    const productData = await Category.findByPk(req.params.id, {
+    const productData = await Product.findByPk(req.params.product_id, {
       include: [{model: Category}, {model: Tag}],
     });
 
@@ -71,7 +71,7 @@ router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
-      id: req.params.id,
+      id: req.params.product_id,
     },
   })
     .then((product) => {
@@ -112,7 +112,7 @@ router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
   Product.destroy({
     where: {
-      product_id: req.params.book_id,
+      product_id: req.params.id,
     },
   })
     .then((deletedProduct) => {
