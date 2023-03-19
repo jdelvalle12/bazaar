@@ -36,10 +36,11 @@ Product.init(
      },
      category_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
         model: 'category',
         key: 'id',
-        unique: false
+        onDelete: 'CASCADE' //Option to delete associated product
       }
      }
   },
