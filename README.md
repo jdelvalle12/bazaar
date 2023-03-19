@@ -2,7 +2,7 @@
 
 ## Description
 
-Internet retail, also knwosn as e-commerce, is the lagest sector of the elctronics inductry, having generated an estimated $29 trillion 2017. E-commerce plastform like shopify and WooCommerce provide a suiet of services to businesses of all sizes. This application is to build the back end for an e-commerce site, store information and manage the database. This application also allows to view all categories, products, & tags, as well as create and/or update the category, product & tag in the database. 
+Internet retail, also known as e-commerce, is the lagest sector of the electronics inductry, having generated an estimated $29 trillion 2017. E-commerce plastform like shopify and WooCommerce provide a suite of services to businesses of all sizes. This application is to build the back end for an e-commerce site, store information and manage the database. This application also allows to view all categories, products, & tags, as well as create and/or update the category, product & tag in the database. 
 
 https://drive.google.com/file/d/1CjQfmiJ0WGUfxiJhcMcbqKNu_EYVfRIt/view
 https://drive.google.com/file/d/1k0uDxp6__OQvb2GAM-wrmslMcIREd_rI/view
