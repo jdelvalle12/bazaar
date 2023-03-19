@@ -5,6 +5,8 @@
 This application is to build the back end for an e-commerce site, store information and manage the database. This application also allows to view all categories, products, & tags, as well as create and/or update the category, product & tag in the database. 
 
 
+
+
 ## Table of Contents
 
 
